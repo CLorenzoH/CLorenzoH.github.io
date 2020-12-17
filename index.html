@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <!-- This link to the css file. -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+  </head>
+  <body>
+    <!-- This is content of the header. -->
+    <header id="header">
+      <div>
+        <img class="img" src="img/logo.png" alt="logo" />
+      </div>
+      <div>
+        <h1>Tic Tac Toe !</h1>
+      </div>
+    </header>
+    <!-- This is content of the body. -->
+    <div class="clorenzo">
+      <section id="content" class="show-borders">
+        <!-- This is board tile of the game. -->
+        <div id="board">
+          <div class="row dancing-font">
+            <div class="box" id="b1"></div>
+            <div class="box" id="b2"></div>
+            <div class="box" id="b3"></div>
+          </div>
+          <div class="row dancing-font">
+            <div class="box" id="b4"></div>
+            <div class="box" id="b5"></div>
+            <div class="box" id="b6"></div>
+          </div>
+          <div class="row dancing-font">
+            <div class="box" id="b7"></div>
+            <div class="box" id="b8"></div>
+            <div class="box" id="b9"></div>
+          </div>
+        </div>
+      </section>
+      <section id="panel-winner" class="show-borders" style="display: none">
+        <!-- This panel is for to show the winner. -->
+        <div id="panel-winner-content">
+          <div id="winner" class="dancing-font"><h3>X</h3></div>
+          <div id="play-again">Play again?</div>
+          <!-- <input id="play-again" type="button" value=" Play again? " /> -->
+        </div>
+      </section>
+    </div>
+  </body>
+  <!-- This link to the js file. -->
+  <script src="script.js"></script>
+  <script src="tictactoe.js"></script>
+  <footer id="footer">
+    <!-- This is content of the footer. -->
+    <h5>Copyright &#169; Christ - Hacktiv8 - Helsinki Fox 2020</h5>
+  </footer>
+</html>
