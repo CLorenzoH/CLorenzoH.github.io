@@ -32,6 +32,7 @@ function gameMechanic() {
         flagX = true;
         showWinner(`${result} is the winner`);
         clearClick(boxes);
+        return;
       }
       if (checkIfAllBoxesAreFilled(boxes)) {
         flagX = true;
