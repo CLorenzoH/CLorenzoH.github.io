@@ -1,6 +1,8 @@
 # Tic Tac Toe versi Brain Lag
 
-- 2020/12/17 p0w4d5-Final-Project
+- hacktiv8 - rmt-08-helsinki-fox
+
+- 2020/12/17 p0w4d5-Final-Project Christ Lorenzo Harlyandi
 
 - This is the color palette for the website= <br>
   [color palette](https://colorhunt.co/palette/226727)
