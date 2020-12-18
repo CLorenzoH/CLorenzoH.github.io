@@ -4,24 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic Tac Toe</title>
-    <!-- This link to the css file. -->
+    <!-- This link is linked to the css file. -->
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
   </head>
   <body>
-    <!-- This is content of the header. -->
+    <!-- This content is the header. -->
     <header id="header">
       <div>
         <img class="img" src="img/logo.png" alt="logo" />
       </div>
       <div>
-        <h1>Tic Tac Toe !</h1>
+        <h1 class="dancing-font">Tic Tac Toe !</h1>
       </div>
     </header>
-    <!-- This is content of the body. -->
-    <div class="clorenzo">
-      <section id="content" class="show-borders">
-        <!-- This is board tile of the game. -->
+    <!-- This content is the body. -->
+    <section class="clorenzo">
+      <!-- This panel is board tile of the game. -->
+      <div id="content" class="show-borders">
         <div id="board">
           <div class="row dancing-font">
             <div class="box" id="b1"></div>
@@ -39,22 +39,21 @@
             <div class="box" id="b9"></div>
           </div>
         </div>
-      </section>
-      <section id="panel-winner" class="show-borders" style="display: none">
-        <!-- This panel is for to show the winner. -->
+      </div>
+      <!-- This panel is to show the winner. -->
+      <div id="panel-winner" class="show-borders" style="display: none">
         <div id="panel-winner-content">
           <div id="winner" class="dancing-font"><h3>X</h3></div>
           <div id="play-again">Play again?</div>
-          <!-- <input id="play-again" type="button" value=" Play again? " /> -->
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </body>
-  <!-- This link to the js file. -->
+  <!-- This link is linked to the js file. -->
   <script src="script.js"></script>
   <script src="tictactoe.js"></script>
+  <!-- This content is the footer. -->
   <footer id="footer">
-    <!-- This is content of the footer. -->
     <h5>Copyright &#169; Christ - Hacktiv8 - Helsinki Fox 2020</h5>
   </footer>
 </html>

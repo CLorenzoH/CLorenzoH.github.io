@@ -25,10 +25,11 @@ html {
 body {
   background-color: #f4eeed;
   font-family: "Open Sans", sans-serif;
+  width: 100%;
 }
 
 #header {
-  position: relative;
+  position: flex;
   background-color: #999b84;
   top: 0;
   height: 70px;
@@ -44,21 +45,20 @@ body {
 
 #header h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   color: #f4eeed;
-  padding: 5px 0;
 }
 
 .clorenzo {
   display: flex;
   justify-content: center;
+  margin: 20px 20px;
 }
 
 #content {
-  display: block;
+  display: flex;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .row {
@@ -72,8 +72,6 @@ body {
   align-items: center;
   width: 200px;
   height: 200px;
-  /* border-color: #999b84;
-  border-style: solid; */
   border-width: 2px;
   border-radius: 5%;
 }
@@ -133,19 +131,14 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: 200px;
   text-align: center;
+  margin: 0 10%;
+  padding: 0 5%;
 }
 
 .grow {
-  /* flex-grow: 1; */
   flex-basis: 100%;
 }
-
-/* .show-borders {
-  border-style: solid;
-  border-width: 1px;
-} */
 
 #panel-winner-content {
   flex-flow: column wrap;
@@ -156,15 +149,23 @@ body {
   background-color: #999b84;
   color: #f4eeed;
   border-style: solid;
-  border-width: 1px;
-  margin: 0 40%;
-  padding: 10px 0;
+  border-color: #efd9d1;
+  border-width: 5px;
+  margin: 0 35%;
+  padding: 2.5% 0;
   border-radius: 5%;
+  font-weight: bold;
 }
 
 #play-again:hover {
   cursor: pointer;
 }
+
+/* This class .show-borders is for testing position of the content */
+/* .show-borders {
+  border-style: solid;
+  border-width: 1px;
+} */
 
 #footer {
   position: flex;
